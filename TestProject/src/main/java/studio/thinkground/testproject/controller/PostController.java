@@ -35,4 +35,6 @@ public class PostController {
     public String member (@RequestBody MemberDTO memberDTO) {
         return memberDTO.toString();
     }
+    
+    // Http 통신 응답코드가 4로 시작하면 client 오류, 5로 시작하면 서버 오류
 }
